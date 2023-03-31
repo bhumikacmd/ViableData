@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13332041400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User to navigate to Careers Page",
+        "description": "",
+        "id": "test-the-functionality-of-viabledata;user-to-navigate-to-careers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1759913300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 517517700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "HomePageStepdefs.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553680500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User to click on main tab",
+            "match": {
+              "location": "HomePageStepdefs.userToClickOnMainTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1511819700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User to click on any of the lists",
+            "match": {
+              "location": "HomePageStepdefs.userToClickOnAnyOfTheLists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125412400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User to verify \"CAREERS\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CAREERS",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageStepdefs.userToVerifyPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the functionality of viabledata",
+    "description": "\r\nAs a user I should navigate to Careers Page",
+    "id": "test-the-functionality-of-viabledata",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/HomePage.feature"
+  }
+]
